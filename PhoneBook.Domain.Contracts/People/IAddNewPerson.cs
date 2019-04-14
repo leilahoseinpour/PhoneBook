@@ -7,7 +7,7 @@ using System.Text;
 namespace PhoneBook.Domain.Contracts.People
 {
     public interface IAddNewPerson: IApplicationService
-    {
+    {    
         Person Execute(Person person);
     }
 }
